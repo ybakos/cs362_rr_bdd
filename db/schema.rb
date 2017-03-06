@@ -10,7 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170306231255) do
+ActiveRecord::Schema.define(version: 20170306231929) do
+
+  create_table "organizations", force: :cascade do |t|
+    t.string   "name"
+    t.boolean  "non_profit"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "roles", force: :cascade do |t|
     t.string   "name"
