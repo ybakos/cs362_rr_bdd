@@ -1,3 +1,7 @@
+Given(/^I am already logged in$/) do
+  pending
+end
+	
 When(/^I visit the user dashboard$/) do
   pending
 end
