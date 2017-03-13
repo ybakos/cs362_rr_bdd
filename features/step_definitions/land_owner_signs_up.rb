@@ -6,7 +6,7 @@ When(/^I click the sign up button$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Then(/^I go to sign up screen$/) do
+Then(/^I see the sign up screen$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
