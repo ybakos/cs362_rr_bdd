@@ -3,7 +3,7 @@ When(/^I visit the homepage$/) do
 end
 
 Then(/^I should see a link to "([^"]*)"\.$/) do |text|
-  flunk
+  page.should have_content(text)
 end
 
 Given(/^I am on the create project screen$/) do

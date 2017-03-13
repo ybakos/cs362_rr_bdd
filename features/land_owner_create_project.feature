@@ -13,4 +13,3 @@ Feature: Land Owner creates a restoration project
     When I enter my project details
     And click the save button
     Then I should see a confirmation that my project has been created.
-
