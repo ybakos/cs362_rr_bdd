@@ -13,3 +13,9 @@ Feature: Land Owner creates a restoration project
     When I enter my project details
     And click the save button
     Then I should see a confirmation that my project has been created.
+
+  Scenario: Land Owner edits an existing project
+    Given I have already created a river restoration project
+    When I log into my account
+    And select the project I want to edit
+    Then I change the correct data I want to update
