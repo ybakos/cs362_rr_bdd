@@ -6,9 +6,9 @@ Feature: Land Owner signs up
   Scenario: Land Owner visits home page
   	Given I am on the home screen
   	When I click the sign up button
-  	Then I go to sign up screen
+  	Then I see the sign up screen
 
-  Scenario: Land Owner visits sign in screen
+  Scenario: New land owner registers
     Given I am on the sign in screen
     When I fill out the sign up form
     And I click the submit button
