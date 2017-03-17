@@ -30,6 +30,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'coffee-script-source', '1.8.0'
 
 group :production do
   gem 'pg'
