@@ -3,13 +3,12 @@ Feature: Land Owner can view a report of his or her projects
   I want to view a report of my projects
   So that I can track my progress.
 
-  Scenario: Land Owner visits home page
+  Scenario: Land Owner visits their projects page
     # Given ...
-    When I visit the homepage
-    Then I should see a link to "view my report".
+    When I visit my project page
+    Then I should see a link to view my report.
 
   Scenario: Land Owner views his or her report
-    Given I am on the view my report screen
-    When I select a project
-    And click the view button
+    Given I am on my project page
+    When I select view my report
     Then I should see a report showing changes over time of my project.

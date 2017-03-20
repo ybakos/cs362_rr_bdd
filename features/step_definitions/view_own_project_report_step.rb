@@ -1,12 +1,16 @@
-Given(/^I am on the view my report screen$/) do
+When(/^I visit my project page$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-When(/^I select a project$/) do
+Then(/^I should see a link to view my report\.$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-When(/^click the view button$/) do
+Given(/^I am on my project page$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^I select view my report$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
